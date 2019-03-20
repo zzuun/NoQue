@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NoQue.</string>
+
+    <string name="baseURL">http://noque-v1.herokuapp.com/api/</string>
+</resources>

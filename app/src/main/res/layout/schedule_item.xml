@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/date_background_style"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="24"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Monday, August"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/slot_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/time_interval_item_style"
+                    android:padding="10dp"
+                    android:text="09:00 - 10:00"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/slot_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/time_interval_item_style"
+                    android:padding="10dp"
+                    android:text="10:00 - 11:00"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/slot_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/time_interval_item_style"
+                    android:padding="10dp"
+                    android:text="11:00 - 12:00"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/slot_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/time_interval_item_style"
+                    android:padding="10dp"
+                    android:text="12:00 - 13:00"
+                    android:textColor="@color/colorWhite" />
+
+
+                <TextView
+                    android:id="@+id/slot_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/time_interval_item_style"
+                    android:padding="10dp"
+                    android:text="13:00 - 14:00"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/slot_six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/time_interval_item_style"
+                    android:padding="10dp"
+                    android:text="14:00 - 15:00"
+                    android:textColor="@color/colorWhite" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/slot_seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/time_interval_item_style"
+                    android:padding="10dp"
+                    android:text="15:00 - 16:00"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#979797">
+
+    </LinearLayout>
+
+</LinearLayout>
